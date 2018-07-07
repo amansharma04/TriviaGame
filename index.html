@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NBA Trivia Quiz</title>
+        <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- using jumbotron from bootstrap to highlight the key parts in box-->
+        <div class="jumbotron text-center">
+            <h1 class="display-8" id="mainName">NBA Trivia Quiz!</h1>
+            <p class="lead">How much do you know about the NBA?</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk2TugTAeczhbM05N5pn-FqKmBtiIwQl3n4eHCj7rbLdgOND_vXw" alt="NBA" width="auto" height="100" style="padding-left:10px"  class="pull-left">
+
+            </p>
+          </div>
+          <!-- Timer Section -->
+          <div class="container text-center">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card">
+                      <div class="card-body" id="timeCard">
+                        <p><b>Time Remaining:</b></p>
+                        <div id="timeRemaining">120</div>
+                        <p> Seconds</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                      <div class="card-body" id="descCard">
+                        <p><b>Let's get started!</b></p>
+                        <p id="description">NBA is one of the biggest sporting league in the world.Teams are divided in two conferences. Eastern and Western. Let's see how much you know about NBA!! </p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container question-div">
+            <!-- populate the questions here -->
+        
+            <!-- populate the results upon submitting the form here -->
+        
+        </div>
+        <div id="submitButton"></div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="assets/javascript/app.js"></script>
+        </body>
+        </html>
+
+    </head>
+</html>

@@ -1,0 +1,55 @@
+#mainName {
+	font-family: 'Anton', sans-serif;
+}
+
+.jumbotron {
+    background-color:blue;
+    min-height: 100px
+}
+
+.container {
+	margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+	margin-right: 15px;
+}
+
+.question-styling {
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#description {
+	font-size: 12px;
+}
+
+#timeRemaining {
+    font-size: 24px;
+
+}
+
+#timeCard {
+	background-color: red
+}
+
+#descCard {
+	background-color:red;
+	text-align: left;
+}
+
+#submitButton {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#buttonStyle {
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+	width: 180px;
+	height: 40px;
+}
